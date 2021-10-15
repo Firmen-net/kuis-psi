@@ -20,15 +20,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DogActivity::class.java)
             startActivity(intent)
         }
-
-        findViewById<Button>(R.id.buttonduck).setOnClickListener {
-            val intent = Intent(this, DuckActivity::class.java)
-            startActivity(intent)
-        }
-
-        findViewById<Button>(R.id.buttonfox).setOnClickListener {
-            val intent = Intent(this, FoxActivity::class.java)
-            startActivity(intent)
-        }
     }
 }

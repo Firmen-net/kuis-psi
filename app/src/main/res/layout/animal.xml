@@ -19,41 +19,11 @@
         app:srcCompat="@drawable/catbg" />
 
     <Button
-        android:id="@+id/buttonduck"
-        android:layout_width="0dp"
-        android:layout_height="63dp"
-
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#00AFFF"
-        android:text="@string/random_duck_photos"
-        android:textColor="#FFFFFF"
-        android:textSize="17sp"
-        app:cornerRadius="30dp"
-        app:layout_constraintEnd_toEndOf="@+id/buttondog"
-        app:layout_constraintStart_toStartOf="@+id/buttondog"
-        app:layout_constraintTop_toBottomOf="@+id/buttondog" />
-
-    <Button
-        android:id="@+id/buttonfox"
-        android:layout_width="0dp"
-        android:layout_height="63dp"
-
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#00AFFF"
-        android:text="@string/random_fox_photos"
-        android:textColor="#FFFFFF"
-        android:textSize="17sp"
-        app:cornerRadius="30dp"
-        app:layout_constraintEnd_toEndOf="@+id/buttonduck"
-        app:layout_constraintStart_toStartOf="@+id/buttonduck"
-        app:layout_constraintTop_toBottomOf="@+id/buttonduck" />
-
-    <Button
         android:id="@+id/buttoncat"
         android:layout_width="287dp"
         android:layout_height="63dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="#00AFFF"
         android:text="@string/random_cat_photos"
@@ -71,13 +41,14 @@
         android:layout_width="0dp"
         android:layout_height="63dp"
 
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="#00AFFF"
         android:text="@string/random_dog_photos"
         android:textColor="#FFFFFF"
         android:textSize="17sp"
         app:cornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="@+id/buttoncat"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/buttoncat"
         app:layout_constraintTop_toBottomOf="@+id/buttoncat" />
 

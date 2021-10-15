@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RecyclerView simple</string>
+    <string name="app_name">Animal Photos</string>
     <string name="animal_lover">ANIMAL LOVER</string>
     <string name="random_duck_photos">Random duck Photos</string>
     <string name="random_cat_photos">Random Cat Photos</string>
